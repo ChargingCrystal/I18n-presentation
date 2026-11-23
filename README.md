@@ -16,10 +16,10 @@ Open the local URL printed by Vite. Each project starts independently.
 
 ## Files
 
-- `demo/`: US English starter for the live demonstration. The additional UK English code is commented out; activate it during the talk.
+- `demo/`: US English starter for the live demonstration.
 - `exercise/`: your starting point, in US English.
 - `exercise/HINTS.md`: optional help, organized by exercise step.
-- `exercise-solution/`: completed reference with German and Turkish. Use it to check your result after trying the exercise.
+- `exercise-solution/`: completed reference with German and Turkish.
 
 ## Exercise (20 minutes)
 
