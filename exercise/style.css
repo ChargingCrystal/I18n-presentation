@@ -1,0 +1,76 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #21262e;
+  background: #f7f4ec;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  max-width: 69rem;
+  margin: 0 auto;
+  padding: clamp(1rem, 6vw, 5rem) clamp(1rem, 7vw, 5.5rem);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fffcf4;
+  background: #202b42;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 700;
+}
+
+header > span {
+  padding: 1rem 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  border: 0;
+  padding: 1rem 1.5rem;
+  font: inherit;
+  color: inherit;
+  background: #1749c6;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+button:hover {
+  background: #123b9f;
+}
+
+button:focus-visible {
+  outline: 3px solid #fffcf4;
+  outline-offset: -5px;
+}
+
+main {
+  padding: clamp(2.5rem, 8vw, 6rem) clamp(0rem, 2vw, 1.5rem) 0;
+}
+
+h1 {
+  margin: 0 0 1.75rem;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  line-height: 1.1;
+}
+
+time {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  color: #1749c6;
+  background: #e2eaff;
+  font-size: clamp(1.35rem, 4vw, 2.75rem);
+}
